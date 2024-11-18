@@ -26,6 +26,6 @@ const resizeObserver = new ResizeObserver(function(entries) {
 
 // Bắt đầu quan sát thẻ body
 resizeObserver.observe(document.querySelector('body'));
-
+console.log("GAGA")
 
 
