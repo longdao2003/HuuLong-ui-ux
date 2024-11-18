@@ -513,12 +513,12 @@ footer{
 
 
 .text-head{
-	font-size: 10px;
+	font-size: 0.625em;
 	font-weight: 100;
 	color: #FFFFFF;
 }
 .text-normal{
-	font-size:14px;
+	font-size:0.875em;
 	font-weight: bold;
 	color: black;
 }
@@ -527,7 +527,7 @@ footer{
 }
 
 .text-small{
-	font-size:11px;
+	font-size:0.625em;
 }
 
 .bold{
@@ -585,3 +585,4 @@ header .icon-normal{
 
 
 } 
+
