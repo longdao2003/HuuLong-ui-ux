@@ -101,6 +101,7 @@ main{
 	display:flex;
 	justify-content: space-between;
 	width:70%;
+	align-items: center;
 	
 
 }
