@@ -86,7 +86,8 @@ main{
 	display:flex;
 	flex-direction: column;
 	justify-content:space-between;
-	padding:10px 
+	padding:10px
+	 
 }
 .container-detail-small > :last-child{
 	display:flex;
@@ -99,13 +100,15 @@ main{
 }
 .container-detail-supersmall{
 	display:flex;
-	justify-content: space-between;
-	width:70%;
+	justify-content: flex-start;
+	width:72%;
 	align-items: center;
 	
 
 }
-
+.container-detail-supersmall > :last-child{
+	margin-left: 30px;
+}
 
 
 
@@ -422,6 +425,7 @@ footer > *{
  }
  #Delete2{
  	display: block;
+ 	color:white;
  }
 header{
 	height: 90px;
