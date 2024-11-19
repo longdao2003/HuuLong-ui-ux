@@ -95,6 +95,7 @@ main{
 	flex-direction: row;
 	height: 100px;
 	width:100%;
+	border-radius: 20px;
 
 }
 #container-detail-small{
