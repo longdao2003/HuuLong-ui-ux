@@ -192,12 +192,11 @@ main {
   margin-top: 36px;
 } */
 
-#main-thirdpart {
+.main-thirdpart {
   display: none;
   position: absolute;
-  width: 15px;
-  height: 70px;
-  background-color: #cb1c22;
+
+  top:197px
 }
 footer {
   margin-top: 69px;
@@ -217,7 +216,7 @@ footer {
   margin-bottom: 10px;
 }
 
-#Delete2 {
+.delete2 {
   display: none;
 }
 
@@ -370,32 +369,37 @@ footer {
 
   header > :nth-child(3) {
     max-width: 265px;
-    min-width: 165px;
+    min-width: 185px;
     width: 100%;
     padding: 0 2.625%;
   }
   main {
-    padding: 0 7.5%;
-    min-width: 680px;
+  padding: 0 7.5%;
+  width: 100%;
+
   }
   .input-rectangle-normal {
     margin: 0 5px;
   }
-  .main-secondpart > :first-child {
-    max-width: 275px;
-    min-width: 200px;
-    width: 100%;
-  }
+
   .main-firstpart {
     margin-top: 17px;
   }
   .main-secondpart {
     margin-top: 17px;
+    max-width: 680px;
+    width: 100%;
+  }
+    .main-secondpart > :first-child {
+    max-width: 275px;
+    min-width: 200px;
+    width: 100%;
   }
   .main-secondpart > :last-child {
-    min-width: 385px;
+    max-width: 385px;
+    min-width: 210px;
     width: 100%;
-    padding: 0 32px;
+    padding: 0 4.8%;
   }
   .container-small {
     width: 100%;
@@ -450,6 +454,7 @@ footer {
 
   .container-big {
     max-width: 385px;
+/*    min-width: 200px;*/
     width: 100%;
   }
   .container-big > :nth-child(1) {
@@ -471,5 +476,76 @@ footer {
   .input-rectangle-special {
     margin-top: 34px;
     margin-bottom: 44px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px){
+  .delete1{
+    display: none;
+  }
+  .delete2{
+    display: block;
+  }
+  body{
+
+  }
+  header{
+    height: 85px;
+    padding: 0 14px;
+
+  }
+  header .icon-logo{
+    width: 49px;
+    height: 55px;
+  }
+  header .input-search{
+   
+    max-width: 150px;
+    
+    height: 20px;
+    width: 100%;
+    padding: 4px 4%;
+
+
+  }
+  header .icon-normal{
+    width: 10px;
+    height: 10px;
+  }
+  .text-head{
+    font-size: 10px;
+  }
+
+  main{
+    padding: 0;
+  }
+  .main-firstpart{
+    margin-top: 10px;
+  }
+  .main-secondpart{
+    margin-top: 10px;
+  }
+  .main-secondpart > :first-child{
+ 
+  }
+  .main-secondpart > :last-child{
+    max-width: 500px;
+    min-width: 300px;
+    padding: 0 20px;
+  }
+  .main-firstpart{
+    padding-left: 7.7%;
+  }
+  .container-big{
+
+    width: 100%;
+    border-radius: 0;
+  }
+  .main-thirdpart{
+    display: block;
+  }
+  footer{
+    margin-top: 15px;
+    flex-direction: column;
+    padding-left: 7.7%;
   }
 }
